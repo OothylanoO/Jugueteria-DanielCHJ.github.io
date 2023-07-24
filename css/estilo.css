@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+table {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#recibo {
+    width: 274px;
+    height: 286px;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+#recibo h2 {
+    margin-top: 0;
+}
+
+#recibo p {
+    margin: 10px 0;
+}
+
+#recibo hr {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}

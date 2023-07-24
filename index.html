@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- aqui estoy llamando a los respectivos archivos tanto como el css y el script -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js"></script>
+
+    <title>Recibo de Compra</title>
+
+</head>
+<body onload="seleccionarJuguete(); seleccionarCantidad(); calcularTotal();">
+    <h1>Tienda Jugueteria</h1>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Juguetes</th>
+            <th>Precio S/</th>
+        </tr>
+        <tr>
+            <td>Monopolio</td>
+            <td>Juguete</td>
+            <td>S/70</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ajedrez</td>
+            <td>S/78</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Lego</td>
+            <td>S/100</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Dama</td>
+            <td>S/58</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Laberinto</td>
+            <td>S/35</td>
+        </tr>
+    </table>
+
+    <p>===========================</p>
+
+    <div id="recibo">
+        <h2>Recibo de Compra</h2>
+        <p><strong>Juguete seleccionado:</strong> <span id="jugueteseleccionado"></span></p>
+        <p><strong>Cantidad:</strong> <span id="cantidadseleccionada"></span></p>
+        <p><strong>Precio unitario:</strong> S/<span id="preciounitario"></span></p>
+        <p><strong>Sub total:</strong> S/<span id="subtotal"></span></p>
+        <p><strong>Descuento:</strong> S/<span id="descuento"></span></p>
+        <p>---------------------------------</p>
+        <p><strong>Total a pagar:</strong> S/<span id="total"></span></p>
+        <p>---------------------------------</p>
+    </div>
+
+    <script>
+        
+    </script>
+</body>
+</html>
